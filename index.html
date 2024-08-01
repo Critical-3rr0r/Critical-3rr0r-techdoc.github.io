@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Counter-Stike Technical Documentation Page</title>
+  </head>
+  <body>
+    
+    <nav id="navbar">
+      <header>CS Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      
+      <a class="nav-link" href="#Shooting_Basics">Shooting Basics</a>
+      
+      <a class="nav-link" href="#Movement_Basics">Movement Basics</a>
+      
+      <a class="nav-link" href="#Using_Utility">Using Utility</a>
+
+      <a class="nav-link" id="last-nav" href="#Training">Training</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>Counter-Strike is a hyper-competitive first person shooter video game series originally released as a mod for the video game half-life. It released in beta in june of 1999 and fully released by november 2000</p>
+        <p>In the 25 years since the original beta Valve (the creators of half-life) aquired the game and made many successfuly games with the IP. The most recent game in the franchise is Counter-Strike 2. This Technical Documentation page will be going over the basic mechanics of the game and providing information on how to improve your gameplay</p>
+      </section>
+
+      <section class="main-section" id="Shooting_Basics">
+        <header>Shooting Basics</header>
+        <p>The gunplay mechanics in counter-strike have always been what makes it stand out from other video games. The mechanics are very different and not very intuitive for some people.A few things to keep in mind when shooting are listed below</p>
+        <ul class="Bulletpoint">
+          <li id="list-element">Never move while shooting</li>
+          <li id="list-element">Your crosshair is an anchor point</li>
+          <li id="list-element">Bullets will travel upwards away from your crosshair while you spray</li>
+          <li id="list-element">Keep your crosshair at head height</li>
+          <li id="list-element">Place your crosshair at angles enemy players are likely to come from</li>
+        </ul>
+        <p>While firing an automatic gun in counter-strike your crosshair will remain stationary while the bullets will begin to fire above the crosshair in a set pattern with slight randomization.</p>
+        <code>This randomization is known as bullet spread and while generally very small while stationary is multiplicative with certain modifiers</code>
+        <p>These modifiers are movement innacuracy which increases with speed and aim punch. countering movement inaccuracy will be covered in the <span class="bold">Movement Basics</span> section. for now we will cover hit punch</p>
+        <p>hit punch is a pretty basic concept. If you are shot or otherwise hurt you will get a brief spike in inaccuracy leading to gunfights heavily favoring the first person to get shots on target regardless of accuracy. with most main rifles in this game providing a 1 or two shot kill to the head it may not seem like a big deal, but as the head hitbox is smaller missing one shot may lead to your enemy landing a body shot and throwing your ability to hit shots in the gutter. with the innacuracy from being hit you may not even be able to hit another shot even with good aim.</p>
+        <code>If you arent entirely confident in your ability to hit headshots it is advisable to switch to body shots after missing your first attempt at the head.</code>
+        <p>Keep in mind that aim in Counter-Strike is notoriously hard to master. Even people who get paid to play 8-12 hours a day miss shots and the only way to get better is to keep trying</p>
+      </section>
+
+      <section class="main-section" id="Movement_Basics">
+        <header>Movement Basics</header>
+        <p>Movement in Counter-Strike is just as important (if not moreso) as your aim. there are several main aspects of movement</p>
+        <ul class="Bulletpoint">
+          <li id="list-element">Jumping</li>
+          <li id="list-element">air-Strafe</li>
+          <li id="list-element">Bunny-Hop</li>
+          <li id="list-element">Surfing</li>
+          <li id="list-element">Counter-Strafe</li>
+          </ul>
+          <code>While these may seem basic at first glance they have major importance in your success</code>
+          <p>Lets start off with jumping. one of the most basic functions in a videogame. jumping in counter-strike like many other games is used to get you not only to higher land, but also across gaps. An entire game-mode is centered around jumping (KZ) In this mode you are meant to jump from box to box using advanced movement techniques. one of the most basic ones used is the crouch jump. The crouch jump is used in many places during regular gameplay as it allows you to reach higher spaces by shrinking the bottom of your hit-box towards your head. The timing is rather generous but some people opt to bind jump and crouch to one key for ease of use.</p>
+          <code>Now that we are familiar with jumping we can now move on to air-strafe.</code> 
+          <p>Air-strafe is a technique where you simultanuously press A or D on your keyboard to move left or right while smoothly moving your mouse along with it. Doing this technique will cause your speed to gradually increase during your jump allowing you to cross greater distances and when combined with a crouch the distance traveled becomes rather absurd. The best KZ players can cross distances that allow them to get into some insane positions during gameplay</p>
+          <code>The air-strafe is not just used during KZ, it is also a vital part of the surf and bhop game modes. Lets dive into bhop first.</code>
+          <p>Bhop, short for bunny-hop, is a method of movement that maintains your momentum. When combined with the air-strafe and crouch jump techniques it can sometimes look like you are simply floating around the map at ludicrous speed. To bhop properly you must input a jump the instant before you touch the ground to stop yourself from having your movement speed reduced. This works because movement speed in the air is allowed to be far higher than your maximum on foot speed. This technique is extremely difficult and is often done by setting your mouse wheel to jump allowing you to input jump many times faster than with a key press in hopes to input a jump at the perfect time. Even using the mouse wheel for your jumps often times isnt enough to land these consistently. Most players who practice and use their mousewheel can expect to do 3-4 bhops at most with minimal speed gain. In community made bhop servers there are plugins to allow a held key to perfectly time a jump for you allowing you to focus on the smoothness of your air strafe and figuring out what path to take.</p>
+          <code>Bhop is commonly part of cheats used to get to places far earlier than usually possible.</code>
+          <p>Surf is another community mode centered around abuse of the physics system that causes you to slide down heavily sloped surfaces. the mode revolves around building speed both in the air through air-strafe and mainly on various sloped platforms through a similar technique. by holding the movement direction towards the platform you are sliding down and smoothly moving your mouse in an arc you are able to gain immense speed to launch yourself between these sloped platforms. using air-strafe you can control the direction you are flying in to land on the next platform and continue to gain speed. This movement technique has minimal use outside of the community mode, but it is good to know as it builds good air-strafe ability</p>
+          <code>Leaving the most important for last, lets move onto counter-strafe</code>
+          <p>Counter-strafe is a vital part of the game as a whole. The technique is part movement part shooting. As we covered in the last section a higher speed causes inaccuracy. One thing we didn't cover was how even if you let go of a direction, you dont stop immediately. While you do slow down rather quickly deaths often happen is fractions of a second. To ensure you slow down and gain full accuracy as quickly as possible you must learn how to counter-strafe. counter-strafing involves pressing the opposite movement key(s) of the direction you are moving and firing an instant later. This allows you to get the same accuracy as if you were standing completely still. While it may sound simple in theory, in practice it can be quite difficult to remember to do and even moreso to consistently execute.</p>
+      </section>
+
+      <section class="main-section" id="Using_Utility">
+        <header>Using Utility</header>
+        <p>Properly using utility is a vital skill in counter strike. Good utility usage can help cover up many mistakes you might make during gameplay. No matter how good you are at aiming you cant shoot what you cant see. The options for utility in the game are as follows</p>
+        <code>It is important to keep in mind that there are three different throw strengths plus the ability to either apply your run/walk movement speed or jumping speed when throwing utility</code>
+        <ul class="Bulletpoint">
+          <li id="list-element">Flashbang</li>
+          <li id="list-element">HE Grenade</li>
+          <li id="list-element">Smoke Grenade</li>
+          <li id="list-element">Molotov Cocktail</li>
+          <li id="list-element">Decoy</li>
+          </ul>
+          <code>Lets start with the biggest disruptor in the game, the Flasbang</code>
+          <p>The Flashbang is probably the most vital piece of utility in the game. It can change the tide of a fight in your favor even if it doesn't actually blind anyone. Anyone looking at the flashbang when it goes off will recieve varying levels of temporary blindness and deafness. Being close to the flashbang and looking at it while it goes off will turn your screen fully white for about a second and a half while also deafening you for about as long. Since Flashbangs make a distinctive click when thrown against a wall (only replicated by the decoy) it is often best practice to throw them in a way that avoids hitting walls while also just barely coming around a corner to allow the least amount of time to turn away. Even if your enemies choose to turn away all hope is not lost. If you push at the same time as your flashbang you can catch people with their back turned. Be sure not to blind yourself in the process</p>
+          <p>The HE Grenade is one of two grenades used to deal damage. It is most often used to finish players off from around a corner, allowing you to deal instant damage without exposing yourself. On certain maps the HE Grenade can be used to secure early kills by having 2 or more players throw grenades into areas the enemy team often rushes into. The HE Grenade has a new use in Counter-Strike 2. When thrown into a smoke grenade it will blast away the smoke allowing you to see what is inside and behind it.</p>
+          <p>The smoke grenade is a key part in most strategies. It can be used to obscure movement, stop rushes, and block off angles. To properly use smoke grenades it is essentially required for you to learn "line ups". Line ups are certain spots you stand with a set crosshair position (usually referenced to objects in the environment). Smokes are best used together as they have a limited duration and often cant cover enough of an angle to truely eliminate the threat those angles pose. You must coordinate with your teammates to throw smokes in important areas all at once to isolate enemies and allow for quick clearance of a small number of angles. When on the defence smokes are still an important tool as when rushing through a smoke you are often visible before you can actually see anything on the other side. A single smoke can shutdown a full rush or at least allow you to isolate fights.</p>
+          <p>The molotov cocktail is a combination of the smoke grenade and the HE Grenade. It allows for denial of space with the added benefit of dealing damage over time to everyone caught inside. This can be used to flush out enemies in angles you'd rather not peak into or stop a rush with the threat of the damage it does over even a short duration. The molotov does have a rather big weakness and that weakness comes in the form of the smoke grenade. When the smoke grenade is thrown at a molotov it will cause the smoke to instantly go off and extinguish the flames.</p>
+      <p>The final bit of utility is the weakest, the decoy. Decoy grenades sound like flashbangs when hitting walls but their main purpose is to replicate the sound of your primary weapon. They can be used to fake a flashbang to allow a rush or to fake your presence causing the enemies to react and flock to the sound of the decoy. Its honestly mostly a waste of money as most players are smart enough to realize when its a decoy being used instead of an actual enemy being located there</p>
+      </section>
+
+      <section class="main-section" id="Training">
+        <header>Training</header>
+        <p>To get better at counter-strike it is important to keep a proper training regimen. There are as many ways to train as there are players in the game but they generally all follow a similar template. Coming up with your own combination of the following types of training is important to avoid burnout while maintaining skill both raw and practical</p>
+        <ul class="Bulletpoint">
+          <li id="list-element">Aim training maps</li>
+          <li id="list-element">Utility Practice</li>
+          <li id="list-element">Movement practice</li>
+          <li id="list-element">Deathmatch</li>
+          <li id="list-element">Matches</li>
+          </ul>
+          <p>I will keep this brief as going into detail would be pointless for most of these things. Aim training maps are exactly what they sound like, maps designed for aim training. They contain bots with various settings allowing you to control how the move and what obstacles you have to shoot around. They are good to build muscle memory but often doesnt translate to much improvement when used alone. It is important to inter-mix your bot training with both deathmatch games and actual matches. Deathmatch games are free for all and give you experience playing against actual real people who move erratically and can fight back. This can improve your speed while giving you a sense of how fragile you are in a real match. Matches are important to hone your agressiveness. If all you do is play deathmatch the value of your life may be lost on you and you will take bad fights far too often. Movement practice can be done either offline on the maps themselves or online on KZ and bhop servers. It is important to be comfortable and fluid with your movement in this game, practicing counter-strafing while you practice your aim is vital to success. Finally utility practice is done offline with console commands that allow you to have infinite utility and enables flying around the map. Done in tandem with youtube guides and plenty of repitition your utility skills can improve quite fast. Its best to master a few different smoke and flash line ups on each map you may play</p>
+      </section>
+    </main>
+  </body>
+</html>
