@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTC-8">
+    <title>Counter-Strike Player Survey</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Counter-Strike Player Survey</h1>
+      <p id="description">Please refrain from rushing B at this time</p>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Please enter your name: </label><input id="name" type="text" placeholder="John Doe" required class="form-control" />
+        </div>
+
+        <div class="form-group">
+          <label id="email-label" for="email">Please enter your email: </label> <input type="email" id="email" placeholder="YourNameHere@email.web" required class="form-control"/></label>
+        </div>
+
+        <div class="form-group">
+          <label id="number-label" for="number">Please enter your age: (optional) </label><input type="number" id="number" min="13" max="120" placeholder="24"class="form-control"/>
+        </div>
+        <div class="form-group">
+          <label id="rank-label" for="rank">Please enter your Premier Rank: </label><input id="rank" type="number" min="500" max="30000" placeholder="25000" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+          <p>Given the choice which primary weapon would you choose?</p>
+          <select id="dropdown" class="form-control">
+            <option disabled selected value="">Select a Weapon
+            </option>
+            
+            <option value="AK">AK-47
+            </option>
+            
+            <option value="M4A1">M4A1-S
+            </option>
+            
+            <option value="M4A4">M4A4
+            </option>
+            
+            <option value="AWP">AWP
+            </option>
+            
+          </select>
+
+        </div>
+
+        <div class="form-group">
+          <p>What is your preffered side to start?</p>
+          <label><input type="radio" name="start-side" value="CT" class="input-radio"/>CT side</label>
+          <label><input type="radio" name="start-side" value="T" class="input-radio"/>T side</label>
+          <label><input type="radio" name="start-side" value="Neither" class="input-radio"/>Neither</label>
+        </div>
+
+        <div class="form-group">
+          <p>Which maps should be replaced in the active duty pool?</p>
+          <label><input name="replace" class="input-checkbox" type="checkbox" value="mirage" />Mirage</label>
+          <label><input name="replace" class="input-checkbox" type="checkbox" value="vertigo" />Vertigo</label>
+          <label><input name="replace" class="input-checkbox" type="checkbox" value="nuke" />Nuke</label>
+          <label><input name="replace" class="input-checkbox" type="checkbox" value="anubis" />Anubis</label>
+          <label><input name="replace" class="input-checkbox" type="checkbox" value="ancient" />Ancient</label>
+          <label><input name="replace" class="input-checkbox" type="checkbox" value="inferno" />Inferno</label>
+          <label><input name="replace" class="input-checkbox" type="checkbox" value="dust2" />Dust2</label>
+        </div>
+
+        <div class="form-group">
+          <p>Describe what you would change about the game:</p>
+          <textarea id="changes" class="input-textarea" name="change" placeholder="If I could change anything..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <input id="submit" type="Submit">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
