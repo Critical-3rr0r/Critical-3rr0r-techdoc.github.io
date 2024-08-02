@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+  font-size: 10px;
+}
+/* Aligns the header element to the top of the page and fixes it in place while also seperating the header child elements to either side of the space alotted */
+#header{
+  z-index: 2;
+  background-color: #fefefe;
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 75px;
+  justify-content: space-around;
+  align-items: center;
+}
+nav > ul{
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+/*Removes the bullet points from the lists on the page*/
+ul > li{
+  list-style: none;
+}
+/* Removes the underline from link and changes text color and font size */
+.nav-link{
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+}
+.img-container{
+  width: 60vw;
+}
+#soap-video{
+  width: 100%;
+  background-color: #e6e6fa;
+}
+#video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 200px auto;
+  height: 40vh;
+  width: 50vw;
+}
+.page-wrap{
+  margin: 75px 0px 0px 0px;
+}
+.bold{
+  font-weight: 800;
+}
+.container{
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0px auto;
+  justify-content: center;
+}
+.features-container .disc{
+  display: flex;
+  flex-direction: column;
+}
+.features-container h2{
+  font-size: 3rem;
+}
+.hero{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.hero > h1, .big-letter{
+  font-size: 3rem;
+}
+#form > p, .mid-letter{
+  font-size: 2.0rem;
+}
+input{
+  font-size: 2.0rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto 20px;
+}
+.submit{
+  color: purple;
+  background-color: #E6E6FA;
+}
+.submit:hover{
+  background-color: purple;
+  color: #e6e6fa;
+}
+
+.list-element{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.li-img{
+  height: 125px;
+  margin: 0;
+  padding-right: 20px;
+  border: 0;
+}
+.li-text{
+  font-size: 2rem;
+}
+
+#pricing{
+  display: flex;
+  justify-content: space-around;
+}
+.product{
+  width: 300px;
+  height: 40rem;
+  border: 1px solid black;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.name{
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #d0d0d0;
+}
+.price{
+  padding-top: 20px;
+}
+ol{
+  margin-top: 3rem;
+}
+ol > li{
+  list-style: none;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.btn{
+  font-size: 2rem;
+}
+.btn:hover{
+  background-color: purple;
+  color: #e6e6fa;
+}
+@media (max-width: 930px) {
+  .nav-link{
+    font-size: 1.2rem;
+  }
+  nav > ul {
+    width: 40vw;
+  }
+}
