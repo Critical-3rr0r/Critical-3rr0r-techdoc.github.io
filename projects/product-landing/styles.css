@@ -5,6 +5,9 @@
   font-family: arial;
   font-size: 10px;
 }
+html{
+  margin-bottom: 100px;
+}
 /* Aligns the header element to the top of the page and fixes it in place while also seperating the header child elements to either side of the space alotted */
 #header{
   z-index: 2;
