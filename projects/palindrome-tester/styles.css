@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 25vh auto;
-    font-family: georgia;
+    font-family: georgia, sans-serif;
     color: #fff;
     border-radius: 20px;
     background-color: #93a3b1;
