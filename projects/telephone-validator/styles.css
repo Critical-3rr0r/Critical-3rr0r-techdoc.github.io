@@ -1,0 +1,75 @@
+body{
+    width: 100vw;
+    background-color: #93a3b1;
+    display: column;
+    justify-content: center;
+    text-align: center;
+    margin: 25vh auto;
+    font-family: georgia;
+  }
+  .button-wrap{
+    background-color: black;
+    width: 25vw;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    min-width: 300px;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;  
+    padding-bottom: 10px;
+  }
+  .input-wrap{
+    background-color: gray;
+    height: 30vh;
+    color: white;
+    width: 23vw;
+    min-width: 250px;
+    margin: auto;
+  }
+  #user-input{
+    width: 99%;
+    height: 2.5rem;
+    font-size: 1.7rem;
+    margin-top: 25px;
+  }
+  #results-div{
+    background-color: white;
+    color: black;
+    max-height: 20vh;
+    overflow: scroll;
+    width: 99%;
+    display: column;
+    margin: auto;
+    height: 100%;
+    font-size: 1rem;
+    z-index: 2;
+  }
+  .buttons{
+    margin-top: 10%;
+  }
+  #check-btn{
+    margin-right: 25px;
+    font-size: 1.5rem;
+  }
+  #clear-btn{
+    margin-left: 25px;
+    font-size: 1.5rem;
+  }
+  .camera{
+    border: 10px solid gray;
+    border-radius: 100%;
+    width: 10px;
+    margin-left: 45%;
+  }
+  .camera-lens{
+    border: 5px solid black;
+    border-radius: 50%;
+  }
+  .valid{
+    color: green;
+  }
+  .invalid{
+    color: red;
+  }
