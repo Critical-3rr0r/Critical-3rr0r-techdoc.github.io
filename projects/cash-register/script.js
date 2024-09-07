@@ -166,12 +166,18 @@ const updateDisplay = (inputValue) =>{
 
 //sets the behavior of the "Purchase" button
 purchaseBtn.addEventListener("click", () => {
-  const value = Math.ceil(input.value * 100) / 100;
+    const value = Number.parseFloat(input.value).toFixed(2);;
   updateDisplay(value);
   updateCash();
 })
 
-
+input.addEventListener("keydown", (e) => {
+    if (event.key === "Enter") {
+        const value = Number.parseFloat(input.value).toFixed(2);;
+        updateDisplay(value);
+        updateCash();
+    }
+})
 
 
 
