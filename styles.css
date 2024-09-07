@@ -78,6 +78,7 @@ img{
   width: 100%;
   background-color: #3d3142;
    overflow: hidden;
+   border-bottom: 10px solid #3d3142;
 }
 .projects-section-border{
   font-size: 5rem;
@@ -90,9 +91,11 @@ img{
   display: grid;
   margin: auto;
   max-width: 1300px;
+  height: 70vh;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 50px;
+  overflow-y: scroll;
  
 }
 .project-title{
@@ -141,14 +144,12 @@ img{
   font-size: 3rem;
   color: #8a0303;
 }
-.link-list a:hover{
-
-}
 
 @media (max-width: 1300px){
   .project-grid{
     grid-template-columns: 1fr 1fr;
     max-width: 900px;
+    overflow-y: scroll;
   }
 }
 @media (max-width: 900px)
@@ -161,6 +162,7 @@ img{
     grid-template-columns: 1fr;
     max-width: 200px;
     gap: 10px;
+    overflow-y: scroll;
   }
 }
 @media(max-width: 720px)
@@ -168,7 +170,26 @@ img{
   #welcome-section h1{
     font-size: 5rem;
   }
+  .link-list a {
+    font-size: 1.5rem;
+  }
   #welcome-section h2{
     font-size: 2rem;
+  }
+}
+@media(max-width: 500px){
+  #links ul {
+    padding-left: 0px;
+  }
+  .link-list{
+    margin-right: 10px;
+    margin-top: -20px;
+  }
+  #links h3{
+    font-size: 3rem;
+  }
+  #welcome-section h1{
+    text-align: center;
+    font-size: 5rem;
   }
 }
