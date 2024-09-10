@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/critical-3rr0r.github.io/quote-generator/static/css/main.34c7c635.css",
-    "main.js": "/critical-3rr0r.github.io/quote-generator/static/js/main.d1dc8efa.js",
-    "static/js/453.f42ee627.chunk.js": "/critical-3rr0r.github.io/quote-generator/static/js/453.f42ee627.chunk.js",
-    "static/media/logo.svg": "/critical-3rr0r.github.io/quote-generator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/critical-3rr0r.github.io/quote-generator/index.html",
-    "main.34c7c635.css.map": "/critical-3rr0r.github.io/quote-generator/static/css/main.34c7c635.css.map",
-    "main.d1dc8efa.js.map": "/critical-3rr0r.github.io/quote-generator/static/js/main.d1dc8efa.js.map",
-    "453.f42ee627.chunk.js.map": "/critical-3rr0r.github.io/quote-generator/static/js/453.f42ee627.chunk.js.map"
+    "main.css": "/quote-generator/static/css/main.34c7c635.css",
+    "main.js": "/quote-generator/static/js/main.698de01e.js",
+    "static/js/453.f42ee627.chunk.js": "/quote-generator/static/js/453.f42ee627.chunk.js",
+    "static/media/logo.svg": "/quote-generator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/quote-generator/index.html",
+    "main.34c7c635.css.map": "/quote-generator/static/css/main.34c7c635.css.map",
+    "main.698de01e.js.map": "/quote-generator/static/js/main.698de01e.js.map",
+    "453.f42ee627.chunk.js.map": "/quote-generator/static/js/453.f42ee627.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34c7c635.css",
-    "static/js/main.d1dc8efa.js"
+    "static/js/main.698de01e.js"
   ]
 }
