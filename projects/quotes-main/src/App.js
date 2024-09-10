@@ -43,8 +43,8 @@ function App() {
                       <button className="btn btn-dark" id="new-quote" onClick={onClickHandler}>Get Quote</button>
                   </div>
               </div>
-      </header>
-    </div>
+          </header>       
+      </div>
   );
 }
 
