@@ -1,7 +1,7 @@
 {
   "name": "quotes",
   "version": "0.1.0",
-  "homepage": "critical-3rr0r.github.io/quote-generator",
+  "homepage": "https://critical-3rr0r.github.io/projects/quotes",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
