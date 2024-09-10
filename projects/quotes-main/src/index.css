@@ -26,6 +26,7 @@ code {
     }
 #quote-box {
     display: flex;
+    border-radius: 30px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -34,6 +35,9 @@ code {
     background-color: #931621;
     max-width: 500px;
     min-width: 350px;
+}
+#text {
+    padding: 0px 10px;
 }
 #author {
     display: block;
