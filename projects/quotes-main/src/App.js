@@ -33,6 +33,7 @@ function App() {
   return (
     <div className="App">
           <header className="App-header">
+            <h1 id="title">The <span>Simpsons</span> Quote Generator</h1>
              <div id="quote-box">
                   <span id="text">{quote.quote}</span>
                   <span id="author">-{quote.character}</span>
