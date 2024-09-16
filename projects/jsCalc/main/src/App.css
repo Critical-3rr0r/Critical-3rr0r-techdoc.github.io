@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Calc {
+    background-color: blue;
+    border: 10px solid black;
+    height: 300px;
+    width: 200px;
+    font-size: 20px;
+}
+.display-holder {
+    height: 20%;
+    background-color: black;
+}
+#display {
+    background-color: lightgray;
+    color: black;
+}
+#output {
+    display: block;
+    background-color: lightgray;
+    color: black;
+    text-align: right;
+    border-bottom: 1px solid darkred;
+}
+#holder {
+    display: grid;
+    grid-template-columns: 1fr .3fr;
+    height: 80%;
+    width: 100%;
+}
+    #holder > div:first-of-type {
+        grid-column: span 2;
+    }
+#top-row {
+    display: flex;
+    background-color: red;
+}
+    #top-row > button {
+        width: 25%;
+        background-color: dimgray;
+        color: white;
+        border: 1px solid black;
+    }
+        #top-row > button:first-of-type {
+         width: 50%;
+         background-color: #5c0512;
+         color: white;
+        }
+            #top-row > button:hover {
+                color: black;
+            }
+#right-column {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+    #right-column > button {
+        border: 1px solid black;
+        background-color: dimgray;
+        color: white;
+    }
+    #right-column > button:hover {
+        color: black;
+    }
+#display {
+    display: block;
+    text-align: right;
+}
+#nums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+    #nums > button {
+        background-color: darkslategrey;
+        border: 1px solid black;
+        color: white;
+    }
+        #nums > button:hover {
+            color: black;
+        }
+    #nums > button:last-of-type {
+        grid-column: span 2;
+    }
