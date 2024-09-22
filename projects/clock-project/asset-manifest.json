@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "//https://critical-3rr0r.github.io/projects/clock-project/static/css/main.dfb32605.css",
-    "main.js": "//https://critical-3rr0r.github.io/projects/clock-project/static/js/main.1149a8c8.js",
-    "static/js/453.c54be771.chunk.js": "//https://critical-3rr0r.github.io/projects/clock-project/static/js/453.c54be771.chunk.js",
-    "static/media/beep.mp3": "//https://critical-3rr0r.github.io/projects/clock-project/static/media/beep.d99b4bac066613410226.mp3",
-    "static/media/logo.svg": "//https://critical-3rr0r.github.io/projects/clock-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "//https://critical-3rr0r.github.io/projects/clock-project/index.html",
-    "main.dfb32605.css.map": "//https://critical-3rr0r.github.io/projects/clock-project/static/css/main.dfb32605.css.map",
-    "main.1149a8c8.js.map": "//https://critical-3rr0r.github.io/projects/clock-project/static/js/main.1149a8c8.js.map",
-    "453.c54be771.chunk.js.map": "//https://critical-3rr0r.github.io/projects/clock-project/static/js/453.c54be771.chunk.js.map"
+    "main.css": "/projects/clock-project/static/css/main.dfb32605.css",
+    "main.js": "/projects/clock-project/static/js/main.72f73537.js",
+    "static/js/453.c54be771.chunk.js": "/projects/clock-project/static/js/453.c54be771.chunk.js",
+    "static/media/beep.mp3": "/projects/clock-project/static/media/beep.d99b4bac066613410226.mp3",
+    "static/media/logo.svg": "/projects/clock-project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/projects/clock-project/index.html",
+    "main.dfb32605.css.map": "/projects/clock-project/static/css/main.dfb32605.css.map",
+    "main.72f73537.js.map": "/projects/clock-project/static/js/main.72f73537.js.map",
+    "453.c54be771.chunk.js.map": "/projects/clock-project/static/js/453.c54be771.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dfb32605.css",
-    "static/js/main.1149a8c8.js"
+    "static/js/main.72f73537.js"
   ]
 }
